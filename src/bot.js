@@ -5,8 +5,8 @@ let LINE = new line();
 // const auth = {
 // 	authToken: ' Token Here',
 // }
-// let client =  new LineConnect(auth);
-let client =  new LineConnect();
+let client =  new LineConnect(auth);
+//let client =  new LineConnect();
 
 client.startx().then(async (res) => {
 	
